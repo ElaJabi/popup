@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(Background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+   width: 480px;
+   height: 600px;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   margin-top: 7rem;
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+}
+
+.title {
+   
+    background: url(pattern.png);
+    background-color: #145cf7;
+    height: 220px;
+    border-radius: 20px 20px 0 0     ;
+    -webkit-border-radius: 20px 20px 0 0     ;
+    -moz-border-radius: 20px 20px 0 0     ;
+    -ms-border-radius: 20px 20px 0 0     ;
+    -o-border-radius: 20px 20px 0 0     ;
+    align-content: center;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+    
+}
+
+ .title h1 {
+   
+    margin:  0 ;
+    color: white;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 40px;
+   
+}
+
+.paragraph {
+    display: flex;
+    height: 80px;
+    
+    text-align: center;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 5px 0 5px;
+}
+
+.paragraph p {
+    color: grey;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    padding: 0 10px 0 10px;
+}
+
+.input {
+    height: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.input-email {
+    width: 300px;
+    height: 50px;
+    border-radius: 8Px;
+    -webkit-border-radius: 8Px;
+    -moz-border-radius: 8Px;
+    -ms-border-radius: 8Px;
+    -o-border-radius: 8Px;
+    border: 1px lightgrey solid;
+    background-color: rgba(221, 226, 228, 0.2);
+    text-indent: 20px;
+    font-size: 1rem;
+    
+    
+  
+}
+
+
+
+.input-email::placeholder {
+    color: #999;
+    font-size: 1rem;
+    letter-spacing: 1.3px;
+    
+
+}
+
+.input-email:focus {
+    outline: none;
+}
+
+
+
+button {
+    background-color:#145cf7;
+    border: none;
+    padding: 19px 25px;
+    color: white;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+form p {
+    text-align: left;
+    color: rgb(196, 194, 194);
+    margin-top: 15px;
+    letter-spacing: 0.3px;
+    font-size: 1rem;
+}
+
+.avatar {
+    height: 80px;
+    margin-top: 20px;
+    
+}
+
+
+.img-avatar {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.avatar img {
+    height: 60px;
+}
+
+.avatar p {
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.avatar p small {
+    color: grey;
+    font-size: 1rem;
+}
+
+.review {
+    
+    text-align: center;
+    
+    color: grey;
+    font-weight: 400;
+    margin: 0 20px 0 20px;
+    
+}
+
+@media (max-width: 480px) {
+    .container{
+        margin: 0 auto;
+        height: 100%;
+        width: 480px;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+}
+    .title {
+        border-radius: 0   ;
+        -webkit-border-radius: 0   ;
+        -moz-border-radius: 0   ;
+        -ms-border-radius: 0   ;
+        -o-border-radius: 0   ;
+}
+
+body {
+    background-image: none;
+}
+
+
+}
